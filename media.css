@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0.5rem;
+    background-size: cover;
+  }
+
+  .calendar-container {
+    width: 100%;
+  }
+
+  .calendar-header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .calendar-weekdays,
+  .calendar-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .calendar-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .day {
+    font-size: 0.75rem;
+    padding: 4px;
+  }
+
+  .event, .more-events {
+    font-size: 0.6rem;
+    padding: 2px;
+  }
+
+  .modal-content {
+    width: 95%;
+    max-width: 95%;
+  }
+
+  #event-form {
+    padding: 10px;
+  }
+
+  #event-form button {
+    font-size: 14px;
+  }
+}
+
+/* обгорнути кнопки у дів та тоді вирівнювати */
